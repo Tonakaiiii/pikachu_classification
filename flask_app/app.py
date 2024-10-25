@@ -3,8 +3,11 @@ import numpy as np
 import tensorflow as tf
 import cv2
 import joblib
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)  # CORSを有効にする
+
 
 # モデルとラベルエンコーダーの読み込み
 model = tf.keras.models.load_model('model/pokemon_model.h5')
