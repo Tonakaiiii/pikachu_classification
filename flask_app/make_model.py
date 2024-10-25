@@ -61,8 +61,8 @@ model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=
 model.fit(X_train, y_train, epochs=10, validation_data=(X_test, y_test))
 
 # モデルの保存
-model.save('pokemon_model.h5')
+model.save('model/pokemon_model.h5')
 
 # ラベルエンコーダーを保存
 import joblib
-joblib.dump(le, 'label_encoder.pkl')
+joblib.dump(le, 'model/label_encoder.pkl')
