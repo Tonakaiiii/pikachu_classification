@@ -44,11 +44,11 @@ const ImageUploader = () => {
             </form>
             {imagePreview && (
                 <div>
-                    <h2>アップロードした画像:</h2>
+                    <h4>アップロードした画像:</h4>
                     <img src={imagePreview} alt="Uploaded" style={{ width: '300px', height: 'auto' }} />
                 </div>
             )}
-            {result && <h2>予測結果: {result}</h2>}
+            {result && <h2>予測結果は... {result} !?</h2>}
         </div>
     );
 };
