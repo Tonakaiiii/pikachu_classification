@@ -21,5 +21,5 @@ def predict_image(img_path):
     return le.inverse_transform([predicted_class])[0]  # インデックスをラベルに変換
 
 # 画像を判別
-result = predict_image('test/1.jpg')  # 判別したい画像のパスを指定
+result = predict_image('test/4.jpg')  # 判別したい画像のパスを指定
 print(result)
