@@ -25,3 +25,4 @@ result = predict_image('test/4.jpg')  # 判別したい画像のパスを指定
 print(result)
 
 #achaaaa
+#testブランチで編集
