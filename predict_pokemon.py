@@ -23,3 +23,5 @@ def predict_image(img_path):
 # 画像を判別
 result = predict_image('test/4.jpg')  # 判別したい画像のパスを指定
 print(result)
+
+#achaaaa
